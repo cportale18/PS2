@@ -30,43 +30,36 @@ public class MyInteger {
 		}
 		else return false;
 		}
-	public boolean isPrime() {
-		if (iValue % 2 == 0) {
-			return false;
-		}
-		if (iValue % 3 == 0) {
-			return false;
-		}
-		else {
-			return true;
-		}
-			
-	}
 	
-	public static boolean isEven(int n) {
+	
+	public boolean isEven1(int n) {
 		
 		if (n % 2 == 0) {
 			return true;
 		}
 		else return false;
 		}
-	public static boolean isOdd(int n) {
+	public boolean isOdd1(int n) {
 		
 		if (n % 2 == 1) {
 			return true;
 		}
 		else return false;
 		}
-	public boolean isPrime(int n) {
-		if (n % 2 == 0) {
-			return false;
-		}
-		if (n % 3 == 0) {
-			return false;
-		}
-		else {
+
+	public static boolean isEven(int MyInteger) {
+		
+		if (MyInteger % 2 == 0) {
 			return true;
 		}
-			
+		else return false;
+		}
+	public static boolean isOdd(int MyInteger) {
+		
+		if (MyInteger % 2 == 1) {
+			return true;
+		}
+		else return false;
+		}
 	}
 }
